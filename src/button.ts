@@ -22,7 +22,7 @@ export class button extends PIXI.Sprite {
             this.scale.x *= -1
         }
 
-        //add the instance to the gamw
+        //add the instance to the game
         game.stage.addChild(this)
     }  
 }
