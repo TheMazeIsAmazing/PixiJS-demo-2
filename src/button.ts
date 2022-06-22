@@ -5,7 +5,9 @@ import * as PIXI from 'pixi.js'
 export class button extends PIXI.Sprite {
 
     constructor(game: PIXI.Application, texture : PIXI.Texture, leftOrRight : string) {
+        //give texture to Pixi.sprite
         super(texture)
+        
         this.anchor.set(1, 0.5)
         this.interactive = true
         this.buttonMode = true
